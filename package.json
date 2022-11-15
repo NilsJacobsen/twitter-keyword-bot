@@ -1,0 +1,25 @@
+{
+  "name": "twitter-keyword-bot",
+  "version": "0.0.1",
+  "description": "Twitter bot that monitors posts with specific keywords",
+  "main": "bot.js",
+  "scripts": {
+    "bot": "node bot.js",
+    "bot2": "node bot2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilsJacobsen/twitter-keyword-bot.git"
+  },
+  "author": "Nils Jacobsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NilsJacobsen/twitter-keyword-bot/issues"
+  },
+  "homepage": "https://github.com/NilsJacobsen/twitter-keyword-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "needle": "^3.1.0",
+    "twit": "^2.2.11"
+  }
+}
